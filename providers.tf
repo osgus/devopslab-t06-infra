@@ -12,7 +12,7 @@ provider "google" {
 
   credentials = file("/home/gustavo_2102079/gcpkey.json")
 
-  project = "	gold-gateway-360700"
+  project = "gold-gateway-360700"
   region  = "us-west4"
   zone    = "us-west4-b"
 }
