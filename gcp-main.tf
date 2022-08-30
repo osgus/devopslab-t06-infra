@@ -1,6 +1,5 @@
-
 resource "google_app_engine_application" "app" {
-  project     = "labdevops-cloud-t06"
+  project     = "gold-gateway-360700"
   location_id = "us-west4"
 }
 
