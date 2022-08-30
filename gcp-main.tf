@@ -1,11 +1,11 @@
 
 resource "google_app_engine_application" "app" {
-  project     = "DEFINIR"
-  location_id = "us-central"
+  project     = "labdevops-cloud-t06"
+  location_id = "us-west4"
 }
 
 resource "google_artifact_registry_repository" "my-repo" {
-  location = "us-central1"
+  location = "us-west4"
   repository_id = "labdevops"
   description = "Imagens Docker"
   format = "DOCKER"
